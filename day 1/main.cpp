@@ -1,3 +1,5 @@
+// Part Two
+
 #include <fstream>
 #include <vector>
 
@@ -15,7 +17,6 @@ void read() {
     }
 }
 
-// Part Two
 void solve() {
     for (int i = 0; i < V.size(); i ++) {
         for (int j = i + 1; j < V.size(); j ++) {
